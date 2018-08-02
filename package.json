@@ -1,0 +1,14 @@
+{
+  "name": "handmade",
+  "version": "1.0.0",
+  "description": "Wedding invitations Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Laura",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
