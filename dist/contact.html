@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>I do</title>
+</head>
+<body>
+    <header>   
+        <nav id="main-nav" class="menu">
+            <div class="menu-nav">
+                <div class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        Home
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="about.html"  class="nav-link">
+                        About us
+                    </a>
+                </div>
+                <div class="nav-item branding">
+                    <span class="title">Something blue...</span> 
+                    <span class="sub-title">Wedding Invitations</span>
+                </div>
+                <div class="nav-item">
+                    <a href="work.html" class="nav-link">
+                        Gallery
+                    </a>
+                </div>    
+                <div class="nav-item current">
+                    <a href="contact.html" class="nav-link">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="contact">
+        <div class="header-frame">
+            <h1 class="lg-heading">
+                Something blue...
+            </h1>
+            <h2 class="sm-heading">
+                Wedding Invitations
+            </h2>
+        </div>
+
+        <div id="modal_wrapper">
+        <div id="modal_window">
+
+            <p>Complete the form below to send an email:</p>
+
+            <form id="modal_feedback" method="POST" action="#" accept-charset="UTF-8">
+            <p><label>Your Name<strong>*</strong><br>
+            <input type="text" autofocus required size="48" name="name" value=""></label></p>
+            <p><label>Email Address<strong>*</strong><br>
+            <input type="email" required title="Please enter a valid email address" size="48" name="email" value=""></label></p>
+            <p><label>Subject<br>
+            <input type="text" size="48" name="subject" value=""></label></p>
+            <p><label>Enquiry<strong>*</strong><br>
+            <textarea required name="message" cols="48" rows="8"></textarea></label></p>
+            <p><input type="submit" name="feedbackForm" value="Send Message"></p>
+            </form>
+
+        </div> 
+        </div>
+    </main>
+    
+    <footer id="main-footer">
+        Copyright &copy; 2018
+        <div class="icons">
+            <a href="#!">
+                <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="#!">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="#!">
+                <i class="fab fa-pinterest fa-2x"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
